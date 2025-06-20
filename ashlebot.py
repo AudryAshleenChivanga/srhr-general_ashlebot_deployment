@@ -10,8 +10,9 @@ import requests
 import io
 
 # --- Download model zip from Google Drive if not present ---
-MODEL_DIR = "Models/distilgpt2_srhr_generalhealth_v1"
-ZIP_URL = "https://drive.google.com/uc?export=download&id=18v7Aks3emm3wsu1q6klgXzXIz4lZ-rs-"
+MODEL_DIR = "/fine_tuned_gpt2_srhr_v2"
+ZIP_URL = "https://drive.google.com/uc?export=download&id=1ARsKPs54Xic9kQ2peiCezQPWge9OXgd5"
+
 
 if not os.path.exists(MODEL_DIR):
     st.info("Downloading model from Google Drive...")
