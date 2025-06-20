@@ -1,5 +1,5 @@
 streamlit>=1.18.1
-transformers==4.40.1
 tensorflow==2.11.1
+transformers==4.40.1
 Pillow
 requests
